@@ -1,0 +1,16 @@
+{
+    "name": "cassandra_summit_2012"
+  , "version": "0.0.1"
+  , "description": "SimpleReach API"
+  , "keywords": ["cassandra"]
+  , "author": "SimpleReach <rbradberry@simplereach.com>"
+  , "scripts": {
+      "start": "node lib/data_load",
+      "test": "node lib/range_queries"
+  }
+  , "dependencies": {
+      "helenus": "0.5.6"
+  }
+  , "main": "index"
+  , "engines": { "node": ">=0.6.0" }
+}
